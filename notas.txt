@@ -1,0 +1,25 @@
+-mail pa mi
+-pagina de usuarios (seria el home? tendria ahi el boton de crear usuario?)
+-pagina de muestra (rociu?)
+
+-(ya muy volados algo en node que postee en una pagina de fb)
+
+-LAS SESIONES?!?!?!? (to firebase or not to firebase?)
+-creacion de usuario (form)
+-modificacion de info (form)
+-crear pagina (form)
+-crear publicacion (form)
+
+-comentar (form dentro de la pagina?)
+
+
+-mails?
+  -para reset password?
+  -cuando les comentan?
+  -resumen de productos vistos?
+
+-----base de datos
+- usuario: id, nombre, apellido, mail, contraseña, whatsap,
+- pagina: id,  id_usuario, nombre de fantasia, color, foto de perfil, descripcion, (foto de portada?)
+-publicacion: id, id_pagina, foto, texto
+-comentario: id, id_publicacion, nombreamostrar, texto
