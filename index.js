@@ -8,6 +8,10 @@ app.use(express.static("./pajitas"))
 //app.get('/', (req, res) => {
 //  res.send('Hello Express app!')
 //});
+/*app.use('/', (req, res) => {
+  console.log("culo")
+  then()
+})*/
 
 app.use('/', la66 )
 

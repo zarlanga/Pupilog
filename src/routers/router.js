@@ -13,14 +13,16 @@ router.get('/pupi', (req,res) => {
   const pupid = req.query.u
   
   let archivo = fs.readFileSync(path.resolve(__dirname,'../data/test.json'))
+  
   archivo = JSON.parse(archivo)
   
   let ret =archivo.datos.find(p => p.id == pupid) || archivo
   
   console.log("norompiooohh")
-  
-  ret = JSON.stringify(ret)
-  res.end(ret)
+
+  //res.setHeader('Content-Type', 'application/json');  
+  res.json(ret)
+  //res.end(ret)
   
   
 })
