@@ -1,6 +1,8 @@
 -mail pa mi
--pagina de usuarios (seria el home? tendria ahi el boton de crear usuario?)
+-pagina de usuarios (seria el home? tendria ahi el boton de crear usuario?) [jaja @lospupis]
 -pagina de muestra (rociu?)
+  -pagina con thumbs
+  -pagina(o modal?) para publicaciones
 
 -(ya muy volados algo en node que postee en una pagina de fb)
 
@@ -23,3 +25,5 @@
 - pagina: id,  id_usuario, nombre de fantasia, color, foto de perfil, descripcion, (foto de portada?)
 -publicacion: id, id_pagina, foto, texto
 -comentario: id, id_publicacion, nombreamostrar, texto
+
+las fotos guardarlas como blob o subirlas a lo cabeza al repl?

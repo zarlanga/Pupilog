@@ -1,0 +1,28 @@
+{"datos":[
+	{"id":"su", 
+	"nombre":"susana susanez", 
+	"logo":"images/test.jpg", 
+	"imgback":"images/backtest.jpg",
+	"presentacion": "soy una sasasa que sarasea hasta el sarazo y mas alla",
+	"items": [
+		{"urlfoto":"unafoto.jpg",
+		 "testo":"tetetesto"},
+		 {"urlfoto":"otrafoto.jpg",
+		 "testo":"siestofuncasoygardel"}
+		
+		]
+	},
+	{"id":"jo", 
+	"nombre":"jose jose" , 
+	"logo":"images/backtest.jpg", 
+	"presentacion": "asdñlfkjasdñlfkajsdf batateishon.hopto.org http://batateishon.hopto.org ", 
+	"imgback":"images/test.jpg",
+	"items": [
+		{"urlfoto":"unafoto.jpg",
+		 "testo":"tetetesto"},
+		 {"urlfoto":"otrafoto.jpg",
+		 "testo":"siestofuncasoygardel"}
+		
+		]
+	}
+]}
