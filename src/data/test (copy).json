@@ -1,0 +1,28 @@
+[
+	{"id":"su", 
+	"nombre":"susana susanez", 
+	"logo":"daodog.jpg", 
+	"imgback":"escher.jpg",
+	"presentacion": "eeeeeeeeeeeesto eeeeeeeeeeeees una presentacioooon de lorem ipsum In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is avail",
+	"items": [
+		{"urlfoto":"renealien.jpg",
+		 "testo":"tetetesto"},
+		 {"urlfoto":"renealien.jpg",
+		 "testo":"siestofuncasoygardel"}
+		],
+  "comments":[]
+	},
+	{"id":"jo", 
+	"nombre":"jose jose" , 
+	"logo":"renealien.jpg", 
+	"presentacion": "este es otro usuarioooo In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is avail ", 
+	"imgback":"puertas.jpg",
+	"items": [
+		{"urlfoto":"daodog.jpg",
+		 "testo":"tetetesto"},
+		 {"urlfoto":"daodog.jpg",
+		 "testo":"siestofuncasoygardel"}
+		],
+  "comments":[]
+	}
+]

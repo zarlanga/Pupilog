@@ -1,28 +1,52 @@
-{"datos":[
-	{"id":"su", 
-	"nombre":"susana susanez", 
-	"logo":"images/test.jpg", 
-	"imgback":"images/backtest.jpg",
-	"presentacion": "soy una sasasa que sarasea hasta el sarazo y mas alla",
-	"items": [
-		{"urlfoto":"unafoto.jpg",
-		 "testo":"tetetesto"},
-		 {"urlfoto":"otrafoto.jpg",
-		 "testo":"siestofuncasoygardel"}
-		
-		]
-	},
-	{"id":"jo", 
-	"nombre":"jose jose" , 
-	"logo":"images/backtest.jpg", 
-	"presentacion": "asdñlfkjasdñlfkajsdf batateishon.hopto.org http://batateishon.hopto.org ", 
-	"imgback":"images/test.jpg",
-	"items": [
-		{"urlfoto":"unafoto.jpg",
-		 "testo":"tetetesto"},
-		 {"urlfoto":"otrafoto.jpg",
-		 "testo":"siestofuncasoygardel"}
-		
-		]
-	}
-]}
+[
+ {
+  "id": "su",
+  "nombre": "susana susanez",
+  "logo": "daodog.jpg",
+  "imgback": "escher.jpg",
+  "presentacion": "eeeeeeeeeeeesto eeeeeeeeeeeees una presentacioooon de lorem ipsum In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is avail",
+  "items": [
+   {
+    "urlfoto": "renealien.jpg",
+    "testo": "tetetesto"
+   },
+   {
+    "urlfoto": "renealien.jpg",
+    "testo": "siestofuncasoygardel"
+   }
+  ],
+  "comments": [
+   {
+    "nombreComentador": "pepe",
+    "comentario": "ea ea pepe"
+   },
+   {
+    "nombreComentador": "gardel y lepera",
+    "comentario": "me parece que el diseño de esto es lo mas horrible que vi en mi vida pero parece que funciona"
+   }
+  ]
+ },
+ {
+  "id": "jo",
+  "nombre": "jose jose",
+  "logo": "renealien.jpg",
+  "presentacion": "este es otro usuarioooo In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is avail ",
+  "imgback": "puertas.jpg",
+  "items": [
+   {
+    "urlfoto": "daodog.jpg",
+    "testo": "tetetesto"
+   },
+   {
+    "urlfoto": "daodog.jpg",
+    "testo": "siestofuncasoygardel"
+   }
+  ],
+  "comments": [
+   {
+    "nombreComentador": "juanjo juanjez",
+    "comentario": "y aca tambien pareceria estar funcionando noooooooooo?"
+   }
+  ]
+ }
+]

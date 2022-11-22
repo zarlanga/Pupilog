@@ -21,6 +21,9 @@
 		color:white;
 		
 	}
+  #portadaimg img{
+    width:100%
+  }
 	#portadatxt {
 		width:80vw;
 		
@@ -95,9 +98,12 @@
 	
 </head>
 <body>
-<header><div id="portadaimg">UNA FOTO</div>
+<header>
+  <h1 id="nombre"></h1>
+  <div id="portadaimg">UNA FOTO</div>
+  
 <div id="portadatxt">lorem merol lorem merol lorem merol lorem merol lorem merol lorem merol lorem merol lorem merol lorem merol lorem merol lorem merol lorem merol lorem merol lorem merol lorem merol lorem merol lorem merol </div>
-<div id="backgimg"> ALGUNA IMAGEN </div>
+<div id="backimg"> ALGUNA IMAGEN </div>
 <input type="number" onchange="mozaicos(this.value)"></input>;
 
 <div id="container"> </div>
@@ -127,9 +133,17 @@
 	}
 	//mozaicos(2);
 
+  function llenarDatos(obj){
+    console.log(obj)
+    document.getElementById("nombre").innerHTML = obj.nombre
+    document.getElementById("portadatxt").innerHTML = obj.presentacion
+    document.getElementById("portadaimg").innerHTML = `<img src="imgs/${obj.logo}"/>`
+    document.querySelector("body").style.backgroundImage = `url(imgs/${obj.imgback})` // `<img src="imgs/${obj.imgback}"/>`
+  }
+
   fetch("./pupi?u=su")
     .then(data => data.json())
-    .then(d => console.log(d))
+    .then(d => llenarDatos(d))
   
   
 
