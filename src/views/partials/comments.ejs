@@ -1,13 +1,22 @@
 
 <form method="POST" action="/@<%=user.id%>"  >
-  <input type="text" placeholder="ponga su nombre" name="nombreComentador" />
+  <input type="text" placeholder="ponga su nombre" name="nombreComentador" required/>
   <br>
-  <input type="textarea" name="comentario" placeholder="aca iria el comentario" />
+  <input type="textarea" name="comentario" placeholder="aca iria el comentario" required/>
   <br>
   <input type="submit" value="enviar"> 
 </form>
 
 <% user.comments.forEach((c) => { %>
-  <h3><%=c.nombreComentador%>:</h3>
-  <h4><%=c.comentario%> </h4>
+  <div style="margin:15px; background-color:rgba(160,210,160,0.7); padding:5px;">
+    
+    <p style="background-color:#5d5;text-align:left;margin:2px;">
+      <%=c.nombreComentador%>:
+    </p>
+    <br>
+    
+    <p style="text-align:left;background-color:#393;margin:0px 10px">
+      <%=c.comentario%>
+    </p>
+  </div>
 <% }) %>

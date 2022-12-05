@@ -7,12 +7,20 @@
   "presentacion": "eeeeeeeeeeeesto eeeeeeeeeeeees una presentacioooon de lorem ipsum In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is avail",
   "items": [
    {
+    "urlfoto": "daodog.jpg",
+    "testo": "tetetesto"
+   },
+   {
     "urlfoto": "renealien.jpg",
     "testo": "tetetesto"
    },
    {
     "urlfoto": "renealien.jpg",
     "testo": "siestofuncasoygardel"
+   },
+   {
+    "urlfoto": "daodog.jpg",
+    "testo": "tetetesto"
    }
   ],
   "comments": [
@@ -23,6 +31,38 @@
    {
     "nombreComentador": "gardel y lepera",
     "comentario": "me parece que el diseño de esto es lo mas horrible que vi en mi vida pero parece que funciona"
+   },
+   {
+    "nombreComentador": "Clauchiz",
+    "comentario": "In inglish i no entender. Pero copado 😉"
+   },
+   {
+    "nombreComentador": "un jaker malo",
+    "comentario": "<h1> toma html esto? </h1>"
+   },
+   {
+    "nombreComentador": "Miss Hyde ",
+    "comentario": "Buenas buenas "
+   },
+   {
+    "nombreComentador": "Pupilog sounds funny in polish",
+    "comentario": "That dog's face reminds me of someone but I'm not sure who"
+   },
+   {
+    "nombreComentador": "Hola?",
+    "comentario": "Hola"
+   },
+   {
+    "nombreComentador": "Eve",
+    "comentario": "Moy buena pagina no se ve nada pero moy buena pagina ahre"
+   },
+   {
+    "nombreComentador": "USUARIO",
+    "comentario": "que hermosa pagina, si te haces ux/ui se cagan de hambre todos, un abrazo"
+   },
+   {
+    "nombreComentador": "Coco",
+    "comentario": "Le estamos obserbando"
    }
   ]
  },

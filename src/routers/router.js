@@ -9,6 +9,15 @@ var db = fs.readFileSync(path.resolve(__dirname,'../data/test.json')) ;
 
 db = JSON.parse(db);
 
+var contador = 0
+
+router.use("/", (req, res, next) =>{
+  console.log(++contador)
+  const testo = `${contador} / ${ Date() } \n`
+  fs.appendFileSync(path.resolve(__dirname, '../data/log.txt'), testo );
+  next()
+})
+
 router.get('/66', (req,res) => { 
   res.end("andaras bien")
 })
@@ -33,7 +42,7 @@ router.post('/@:id', (req, res) => {
     }
     return r;
   })
-  console.log(req.body)
+  
   //aca se reescribiria el archivo
   fs.writeFileSync(path.resolve(__dirname, '../data/test.json'), JSON.stringify(db, null, ' ')); 
     
