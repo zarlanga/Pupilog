@@ -7,11 +7,17 @@ router.use("/", ctrl.logg)
 
 router.get('/66', ctrl.pappo)
 
-router.get('/pupi', ctrl.fetchh)
+router.get("/crearusuario", ctrl.createUserForm)
+
+router.post("/crearusuario", ctrl.createUserPost)
 
 router.get('/@:id', ctrl.template)
 
 router.post('/@:id', ctrl.postComment)
+
+
+router.get('/pupi', ctrl.fetchh)
+
 
 
 module.exports = router

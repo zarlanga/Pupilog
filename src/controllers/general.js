@@ -55,10 +55,26 @@ const postComment = (req, res) => {
   res.render(path.resolve(__dirname, '../views/template'), {user: user} )
 }
 
+const createUserForm = (req, res) => {
+  res.render(path.resolve(__dirname, '../views/createUser'))
+}
+
+const createUserPost= (req, res) => {
+  const user = req.body;
+  user.comments= [];
+  user.items = [];
+  db.push(user)
+  fs.writeFileSync(path.resolve(__dirname, '../data/test.json'), JSON.stringify(db, null, ' ')); 
+  //res.send(req.body)
+  res.redirect("@"+user.id)
+
+}
 module.exports ={
   pappo,
   logg,
   fetchh,
   template,
-  postComment
+  postComment,
+  createUserForm,
+  createUserPost
 }
