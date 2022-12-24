@@ -90,6 +90,10 @@
    {
     "nombreComentador": "juanjo juanjez",
     "comentario": "y aca tambien pareceria estar funcionando noooooooooo?"
+   },
+   {
+    "nombreComentador": "lala",
+    "comentario": "y esto rompio?"
    }
   ]
  },
@@ -104,5 +108,42 @@
    }
   ],
   "items": []
+ },
+ {
+  "id": "ji",
+  "nombre": "jimena jimenez",
+  "presentacion": "usuario creado desde la pagina, express la tenes adentrooooh",
+  "comments": [
+   {
+    "nombreComentador": "lala",
+    "comentario": "y esto tambien funciona?"
+   }
+  ],
+  "items": [],
+  "logo": "4.jpg"
+ },
+ {
+  "id": "la",
+  "nombre": "laaaaaaaaaaalalalla",
+  "presentacion": "entonces esto anda?",
+  "comments": [],
+  "items": [],
+  "logo": "5.jpg"
+ },
+ {
+  "id": "cu",
+  "nombre": "kies",
+  "presentacion": "probando cukies",
+  "comments": [],
+  "items": [],
+  "logo": "6.jpg"
+ },
+ {
+  "id": "sus",
+  "nombre": "susanita susanitez",
+  "presentacion": "este tiene que entrar aunque sea sus",
+  "comments": [],
+  "items": [],
+  "logo": "7.jpg"
  }
 ]

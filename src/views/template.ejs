@@ -24,6 +24,10 @@
     </header>
     
     <main id="container"> 
+      <% if (editable) {%>
+        <h3>aca iria el form o el link al form</h3>
+      <% } %>
+        
       <%- include("partials/mozaicos") %>
       <%- include("partials/comments")  %>
     </main>

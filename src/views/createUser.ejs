@@ -4,10 +4,21 @@
     <%- include("partials/head") %>
   </head>
   <body>
-    <form method="POST" action="/crearusuario">
-        <input type="text" name="id" placeholder="ID" required>
-       <input type="text" name="nombre" placeholder="usuario" required>
-      <input type="textarea" name="presentacion" required>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/5snMB7Tk1qU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    
+    <form method="POST" enctype="multipart/form-data" action="/crearusuario">
+        <input type="text" name="id" placeholder="@tusuario" required>
+      <br/>
+       <input type="text" name="nombre" size="35" placeholder="nombre/alias/identidad secreta" required>
+       <br/>
+      <input type="textarea" name="presentacion" rows="2" placeholder="descripcion, acerca de, frases favoritas o loquivenga" required>
+      <!--input type="textarea" name="presentacion" rows="2" placeholder="descripcion de tu producto/servicio/marca/identidad/filosofaseadapertinente" required-->
+      
+       <br/>
+      <label for="logo">Imagen de perfil/logo:</label>
+      <input type="file" id="logo" name="logo"> 
+       <br/>
+       <br/>
       <input type="submit" value="enviar">
     </form>
   </body>
