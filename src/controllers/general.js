@@ -73,7 +73,8 @@ const postComment = (req, res) => {
   //var user = db.find((r) => r.id == req.params.id  )
   const user = db[indexId]
   
-  res.render(path.resolve(__dirname, '../views/template'), {user: user} )
+  //res.render(path.resolve(__dirname, '../views/template'), {user: user} )
+  res.redirect("@"+req.params.id)
 }
 
 const createUserForm = (req, res) => {
@@ -99,7 +100,7 @@ const createUserPost= (req, res) => {
     res.end("usuario existente, pruebe otro nombre de usuario")
   } else {
     
-    req.files.logo.mv(`${path.resolve(__dirname, '../../pajitas/imgs/')}/${indexImg}.jpg`)
+    req.files.logo.mv(`${path.resolve(__dirname, '../../pajitas/imgs/')}/${indexImg+term}`)
     
     
     db.push(user)
@@ -112,6 +113,30 @@ const createUserPost= (req, res) => {
   }
 
 }
+
+const crearposteo = (req, res) => {
+  //const posteo = req.body
+  
+  const term = req.files.urlfoto.name.slice(-4);
+  db = db.map( (r,i) => { 
+    if(r.id == req.cookies.usuario) {
+      
+      const posteo = {
+        urlfoto: indexImg + term,
+        testo: req.body.testo
+      }
+      r.items.push(posteo)
+    }
+    return r;
+  })
+  req.files.urlfoto.mv(`${path.resolve(__dirname, '../../pajitas/imgs/')}/${indexImg+term}`)
+  indexImg++;
+  fs.writeFileSync(path.resolve(__dirname, '../data/test.json'), JSON.stringify(db, null, ' ')); 
+  
+  res.redirect("@"+req.cookies.usuario)
+}
+
+
 module.exports ={
   pappo,
   logg,
@@ -119,5 +144,6 @@ module.exports ={
   template,
   postComment,
   createUserForm,
-  createUserPost
+  createUserPost,
+  crearposteo
 }

@@ -11,12 +11,16 @@ router.get("/crearusuario", ctrl.createUserForm)
 
 router.post("/crearusuario", ctrl.createUserPost)
 
+router.post('/crearposteo', ctrl.crearposteo)
+
 router.get('/@:id', ctrl.template)
 
 router.post('/@:id', ctrl.postComment)
 
 
 router.get('/pupi', ctrl.fetchh)
+
+
 
 
 

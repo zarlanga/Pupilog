@@ -10,7 +10,7 @@
     "comentario":"me encanta la radio"}
     ]
 }
-
+if (!editable) editable = false;
 %>
 
 <!DOCTYPE html>
@@ -25,7 +25,17 @@
     
     <main id="container"> 
       <% if (editable) {%>
-        <h3>aca iria el form o el link al form</h3>
+        <h3>Nuevo post</h3>
+        <form method="POST" enctype="multipart/form-data" action="/crearposteo">
+          <label for="urlfoto">Imagen a subir:</label>
+          <input type="file" id="urlfoto" name="urlfoto">
+          <br>
+          <input type="textarea" name="testo" cols="40" rows="3" placeholder="descripcion del post" required>
+          <br>
+          <input type="submit">
+          
+          
+        </form>
       <% } %>
         
       <%- include("partials/mozaicos") %>

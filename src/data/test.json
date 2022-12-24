@@ -142,8 +142,56 @@
   "id": "sus",
   "nombre": "susanita susanitez",
   "presentacion": "este tiene que entrar aunque sea sus",
-  "comments": [],
-  "items": [],
+  "comments": [
+   {
+    "nombreComentador": "test",
+    "comentario": "testingg"
+   }
+  ],
+  "items": [
+   {
+    "urlfoto": "8.jpg",
+    "testo": "poooooooooooooooooooosteo"
+   },
+   {
+    "urlfoto": "12.jpg",
+    "testo": "buenoentoncesestoandayyaestaaaaaaaaaaaah?!?!"
+   }
+  ],
   "logo": "7.jpg"
+ },
+ {
+  "id": "Vanesí",
+  "nombre": "A puh",
+  "presentacion": "Recontra a puh",
+  "comments": [
+   {
+    "nombreComentador": "Batatitah",
+    "comentario": "Berenjenitas 🍆"
+   },
+   {
+    "nombreComentador": "Puta",
+    "comentario": "Madre"
+   },
+   {
+    "nombreComentador": "pupuhhh",
+    "comentario": "y si te fijas vos podes (o deberias poder) crear posteos y io nooo"
+   },
+   {
+    "nombreComentador": "atahhh",
+    "comentario": "a ver no se si rompi algo o lo arregle XD"
+   }
+  ],
+  "items": [
+   {
+    "urlfoto": "10.jpg",
+    "testo": "Anus"
+   },
+   {
+    "urlfoto": "11.jpg",
+    "testo": "Anus"
+   }
+  ],
+  "logo": "9.jpg"
  }
 ]
